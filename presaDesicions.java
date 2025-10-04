@@ -54,7 +54,39 @@ public class presaDesicions {
                 System.out.println("2.Vaselina fluixa");
                 System.out.println("3.Vaselina perfecta");
                 int dec3 = scanner.nextInt();
+        if (dec3 == 1){
+                System.out.println("Xut fort i gol");
+                System.out.println("FINAL FELIÇ: Has guanyat el partit");
             }
+            else if (dec3 == 2){
+                System.out.println("Vaselina fluixa, va fora");
+                System.out.println("FINAL NEUTRE: El partit acaba en empat");
+            }
+            else{
+                System.out.println("Vaselina perfecta, golàs!");
+                System.out.println("FINAL FANTÀSTIC: Has guanyat el partit!");
+            }
+        }
+
+            }
+            else{ //Si la condició anterior no es compleix entra aquí
+                System.out.println("Decidim esperar i sortir a la contra, toca patir");
+
+                //Decisió
+                System.out.println("Decisió 4: Fas entrar un extrem ràpid?");
+                System.out.println("1.Sí un extrem ràpid");
+                System.out.println("2.No i deixo el davanter de sempre");
+                int dec4 = scanner.nextInt();
+
+        if (dec4 == 1){
+                System.out.println("Passe llarg i es queda sol davant el porter");
+
+                //Decisió
+                System.out.println("Decisió 5: Li dius com xutar");
+                System.out.println("1.Xuta ras");
+                System.out.println("2.Intenta regatejar");
+                int dec5 = scanner.nextInt();
+        }
         }
     }
 }
