@@ -54,6 +54,7 @@ public class presaDesicions {
                 System.out.println("2.Vaselina fluixa");
                 System.out.println("3.Vaselina perfecta");
                 int dec3 = scanner.nextInt();
+                
         if (dec3 == 1){
                 System.out.println("Xut fort i gol");
                 System.out.println("FINAL FELIÇ: Has guanyat el partit");
@@ -86,7 +87,35 @@ public class presaDesicions {
                 System.out.println("1.Xuta ras");
                 System.out.println("2.Intenta regatejar");
                 int dec5 = scanner.nextInt();
+        
+        if (dec5 == 1){
+                System.out.println("Xut ras i gol");
+                System.out.println("FINAL FELIÇ: Has guanyat el partit");
+            }
+            else{
+                System.out.println("El defensa fa falta dins l'àrea! Penal");
+                System.out.println("FINAL OBERT: Tot depèn del llançament.");
+            }
+            }
+            else{
+                System.out.println("Falten al davanter a la frontal de l'àrea");
+
+                //Decisió
+                System.out.println("Decisió 6: Qui xuta?");
+                System.out.println("1.El capità");
+                System.out.println("2.Un altre amb jugada assajada");
+                int dec6 = scanner.nextInt();
+
+        if (dec6 == 1){
+                System.out.println("El capità marca un golàs");
+                System.out.println("FINAL FANTÀSTIC: Has guanyat el partit");
+            }
+            else{
+                System.out.println("Ens tallen la jugada i marquen.");
+                System.out.println("FINAL TRÀGIC: Has perdut el partit.");
+            }
         }
+        
         }
     }
 }
